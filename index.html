@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Maazuddin Qureshi | AI & Full-Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #06b6d4, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            border-color: rgba(6, 182, 212, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(6, 182, 212, 0.3);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold gradient-text">Maaz Qureshi</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+                <a href="#contact"
+                    class="px-4 py-2 bg-cyan-500 text-black font-semibold rounded-lg hover:bg-cyan-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="min-h-screen flex items-center justify-center pt-20 px-6 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-cyan-500/20 rounded-full filter blur-[120px]"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full filter blur-[120px]"></div>
+
+        <div class="text-center max-w-4xl relative z-10">
+            <div class="inline-block mb-4 px-4 py-1 glass rounded-full text-sm text-cyan-400">
+                Open to AI & Full-Stack Opportunities
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                Muhammad Maazuddin <span class="gradient-text">Qureshi</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 mb-8">
+                AI & Full-Stack Engineer | Building Production-Ready AI Applications & Scalable MLOps Infrastructure
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects"
+                    class="px-8 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition">View
+                    Projects</a>
+                <a href="https://github.com/MuhammadMaazuddin" target="_blank"
+                    class="px-8 py-3 glass font-bold rounded-lg hover:bg-white/10 transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/muhammad-maazuddin-qureshi-636aa9289/" target="_blank"
+                    class="px-8 py-3 glass font-bold rounded-lg hover:bg-white/10 transition">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-8 text-center">Professional <span class="gradient-text">Summary</span></h2>
+            <div class="glass p-8 rounded-2xl text-gray-300 text-lg leading-relaxed">
+                <p>
+                    BS in Artificial Intelligence student (Graduating 2026) specializing in Full-Stack Development, with
+                    strong interests in Data Science, Machine Learning, Generative AI, and Cloud Deployment. Focused on
+                    building production-ready AI applications and scalable intelligent systems using modern MLOps
+                    practices.
+                </p>
+                <div class="mt-6 flex flex-wrap gap-4 text-sm">
+                    <span class="flex items-center gap-2"><span class="w-2 h-2 bg-green-400 rounded-full"></span>
+                        Islamabad, Pakistan</span>
+                    <span class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-400 rounded-full"></span> FAST
+                        NUCES Islamabad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-gray-950/50">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical <span class="gradient-text">Arsenal</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">Python</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">C++</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">JavaScript</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Dart</span>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">Development</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">React</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Next.js</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">TailwindCSS</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Node.js</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">FastAPI</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Flutter</span>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">AI & ML</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">Data Science</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Computer Vision</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">LLMs</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Audio/Video Gen</span>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">MLOps & Cloud</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">Docker</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Kubernetes</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Airflow</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">MLflow</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">DVC</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Jenkins</span>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">Databases</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">PostgreSQL</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">MySQL</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">NoSQL</span>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-xl card-hover">
+                    <h3 class="text-xl font-semibold text-cyan-400 mb-4">Monitoring & Viz</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 px-3 py-1 rounded text-sm">Grafana</span><span
+                            class="bg-gray-800 px-3 py-1 rounded text-sm">Prometheus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-12 text-center">Work <span class="gradient-text">Experience</span></h2>
+
+            <div class="space-y-8">
+                <!-- Current Role -->
+                <div class="glass p-8 rounded-2xl relative border-l-4 border-purple-500">
+                    <div class="absolute -left-3 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-black"></div>
+                    <div class="flex flex-wrap justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">AI / Machine Learning Engineer</h3>
+                            <p class="text-purple-400">Artificial Intelligence Technology Center (AITeC), Islamabad</p>
+                        </div>
+                        <span
+                            class="px-3 py-1 bg-purple-500/20 text-purple-400 text-sm rounded-full mt-2 md:mt-0">Currently
+                            Working</span>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li>Currently developing and optimizing advanced video generation pipelines leveraging
+                            high-performance NVIDIA A6000 GPUs.</li>
+                        <li>Working on scalable AI inference systems for multimedia content synthesis and automated
+                            video creation.</li>
+                        <li>Collaborating with the team to integrate cutting-edge generative models into
+                            production-ready environments.</li>
+                    </ul>
+                </div>
+
+                <!-- Previous Internship -->
+                <div class="glass p-8 rounded-2xl relative border-l-4 border-cyan-500">
+                    <div class="absolute -left-3 top-8 w-6 h-6 bg-cyan-500 rounded-full border-4 border-black"></div>
+                    <div class="flex flex-wrap justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Data Engineering Intern</h3>
+                            <p class="text-cyan-400">Artificial Intelligence Technology Center (AITeC), Islamabad | 2
+                                Months</p>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li>Learned and implemented data engineering pipelines including data collection, cleaning,
+                            transformation, and storage.</li>
+                        <li>Assisted in developing scalable workflows for handling large datasets.</li>
+                        <li>Explored tools and practices used in MLOps such as versioning, automation, and pipeline
+                            orchestration.</li>
+                        <li>Collaborated in a team environment and contributed to project development and
+                            experimentation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-950/50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold mb-12 text-center">Featured <span class="gradient-text">Projects</span></h2>
+
+            <!-- Full-Stack & AI Projects -->
+            <h3 class="text-2xl font-bold mb-6 text-gray-300">Full-Stack & AI Applications</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">AI-Powered Learning Management System (FYP)</h4>
+                    <p class="text-gray-400 mb-4">Full-stack LMS platform enabling teachers to create courses and
+                        students to enroll. Features AI-powered lecture generation, automatic slides, video lectures,
+                        and an AI tutor using RAG.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-cyan-400">React, Node.js, FastAPI, GenAI, RAG</div>
+                </div>
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">Rozagar Service Marketplace</h4>
+                    <p class="text-gray-400 mb-4">Cross-platform Flutter app connecting customers with local service
+                        providers (plumbers, doctors, etc.). Features auth, booking systems, and provider dashboards.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs text-cyan-400">Flutter, Dart, UI/UX, Mobile Architecture
+                    </div>
+                </div>
+            </div>
+
+            <!-- MLOps Projects -->
+            <h3 class="text-2xl font-bold mb-6 text-gray-300">MLOps & Infrastructure</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">Federated Learning MLOps System</h4>
+                    <p class="text-gray-400 mb-4">Privacy-preserving federated learning system using Flower and
+                        TensorFlow. Designed automated training pipelines with Docker, MLflow, FastAPI, and integrated
+                        Grafana monitoring.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-cyan-400">Flower, TensorFlow, Docker, MLflow, Grafana
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">End-to-End ML Pipeline Infrastructure</h4>
+                    <p class="text-gray-400 mb-4">Automated ML pipelines using Airflow and DVC. Implemented CI/CD via
+                        Jenkins and GitHub Actions, with full system monitoring via Prometheus and Grafana.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-cyan-400">Airflow, DVC, Jenkins, GitHub Actions,
+                        Prometheus</div>
+                </div>
+            </div>
+
+            <!-- Core AI Projects -->
+            <h3 class="text-2xl font-bold mb-6 text-gray-300">Artificial Intelligence & ML</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">Automated GenAI Workflow (FYP)</h4>
+                    <p class="text-gray-400 mb-4">Pipelines converting text to structured educational content. Generated
+                        slides, images, narrated videos, and AI avatars.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-purple-400">GenAI, Automation</div>
+                </div>
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">Multilingual Speech Processing</h4>
+                    <p class="text-gray-400 mb-4">Speech-to-text using Whisper, translation pipelines
+                        (English/Urdu/Arabic), and TTS audio conversion.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-purple-400">Whisper, NLP, TTS</div>
+                </div>
+                <div class="glass p-6 rounded-2xl card-hover">
+                    <h4 class="text-xl font-bold text-white mb-2">Voice Age Recognition</h4>
+                    <p class="text-gray-400 mb-4">Extracted acoustic features from 10k samples. Trained regression
+                        models for age prediction using Pandas and Librosa.</p>
+                    <div class="flex flex-wrap gap-2 text-xs text-purple-400">Audio Processing, Regression</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="py-20 px-6">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-8">Let's Build Something <span class="gradient-text">Intelligent</span>
+            </h2>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="mailto:maaz68926@gmail.com" class="glass p-6 rounded-2xl flex-1 card-hover">
+                    <h3 class="text-xl font-bold text-white mb-2">Email</h3>
+                    <p class="text-cyan-400">maaz68926@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-maazuddin-qureshi-636aa9289/" target="_blank"
+                    class="glass p-6 rounded-2xl flex-1 card-hover">
+                    <h3 class="text-xl font-bold text-white mb-2">LinkedIn</h3>
+                    <p class="text-cyan-400">Connect with me professionally</p>
+                </a>
+                <a href="https://github.com/MuhammadMaazuddin" target="_blank"
+                    class="glass p-6 rounded-2xl flex-1 card-hover">
+                    <h3 class="text-xl font-bold text-white mb-2">GitHub</h3>
+                    <p class="text-cyan-400">Check out my source code</p>
+                </a>
+            </div>
+            <p class="text-gray-500 mt-12">© 2024 Muhammad Maazuddin Qureshi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
